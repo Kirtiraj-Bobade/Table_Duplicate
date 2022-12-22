@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.demo1
+{
+  text-align: center;
+
+  padding: 10;
+}
 
 .App-header {
   background-color: #282c34;
@@ -22,6 +28,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.demo
+{
+  margin: auto;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+
 }
 
 .App-link {
@@ -35,4 +50,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+table, th, td {
+  border: 1px solid black; 
+  border-collapse: collapse;
 }
